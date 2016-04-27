@@ -1,0 +1,6 @@
+.ie body {
+  background: red;
+}
+.ie label.placeholder {
+  color: #EBE9DA;
+}

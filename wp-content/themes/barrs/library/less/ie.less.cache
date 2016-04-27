@@ -1,0 +1,7 @@
+a:4:{s:4:"root";s:100:"/var/www/vhosts/spokeapps.net/subdomains/barrs/httpdocs/wp-content/themes/barrs/library/less/ie.less";s:8:"compiled";s:76:".ie body {
+  background: red;
+}
+.ie label.placeholder {
+  color: #EBE9DA;
+}
+";s:5:"files";a:1:{s:100:"/var/www/vhosts/spokeapps.net/subdomains/barrs/httpdocs/wp-content/themes/barrs/library/less/ie.less";i:1365467357;}s:7:"updated";i:1365467421;}
