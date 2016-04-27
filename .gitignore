@@ -23,3 +23,6 @@ wp-signup.php
 wp-trackback.php
 xmlrpc.php
 wp-links-opml.php
+wp-content/themes/twentyeleven
+wp-content/themes/twentytwelve
+wp-config-sample.php

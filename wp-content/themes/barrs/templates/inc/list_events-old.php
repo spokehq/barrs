@@ -3,23 +3,13 @@
   $sections = new WP_Query( array(
     'connected_type' => 'events_to_pages',
     'connected_items' => get_queried_object(),
-    //'post_status' => 'future', // Only events with a future publish date
-    'nopaging' => true, 
-
-    'meta_key'	=> '_cmb_test_textdate_timestamp',
-    'meta_query'	=> array(
-	    array(
-		    'key'	=> '_cmb_test_textdate_timestamp',
-		    'compare' => '>=',
-		    'value'	=>intval(strtotime(date('Y-m-d'))),
-		    'type'	=> 'numeric'
-	    )
-    ),
+    'post_status' => 'future', // Only events with a future publish date
+    'nopaging' => true,
   ) );
   $main_url   = get_permalink();
   $isActive   = true;
 
-   // Display connected posts
+  // Display connected posts
   if ( $sections->have_posts() ) :
 
      while ( $sections->have_posts() ) : $sections->the_post();
